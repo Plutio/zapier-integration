@@ -18,3 +18,6 @@ A Zapier Integration to create tasks in Plutio
 
 1. Change files as needed
 2. To deploy your changes use command `zapier push`
+
+
+YAY! Moved to GitHub!
