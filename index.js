@@ -1,4 +1,5 @@
 const taskCreate = require('./creates/task');
+const projectCreate = require('./creates/project')
 const authentication = require('./authentication');
 
 const App = {
@@ -17,6 +18,7 @@ const App = {
   },
   creates: {
     [taskCreate.key]: taskCreate,
+    [projectCreate.key]: projectCreate
   }
 };
 

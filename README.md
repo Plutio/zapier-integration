@@ -20,4 +20,9 @@ A Zapier Integration to create tasks in Plutio
 2. To deploy your changes use command `zapier push`
 
 
+### Documentation for the Project
+
+1. Zapier CLI Reference - https://platform.zapier.com/cli_docs/cli
+2. Plutio API Documentation - https://docs.plutio.com/
+
 YAY! Moved to GitHub!
