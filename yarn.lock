@@ -162,11 +162,6 @@ jsonschema@1.1.1:
   resolved "https://registry.yarnpkg.com/jsonschema/-/jsonschema-1.1.1.tgz#3cede8e3e411d377872eefbc9fdf26383cbc3ed9"
   integrity sha1-PO3o4+QR03eHLu+8n98mODy8Ptk=
 
-lodash@4.17.10:
-  version "4.17.10"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.10.tgz#1b7793cf7259ea38fb3661d4d38b3260af8ae4e7"
-  integrity sha512-UejweD1pDoXu+AD825lWwp4ZGtSwgnpZxb3JDViD7StjQz+Nb/6l093lx4OQ0foGWNRoc19mWy7BzL+UAK2iVg==
-
 lodash@4.17.11:
   version "4.17.11"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
@@ -316,10 +311,10 @@ wrappy@1:
   resolved "https://registry.yarnpkg.com/wrappy/-/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
   integrity sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=
 
-zapier-platform-core@8.0.1:
-  version "8.0.1"
-  resolved "https://registry.yarnpkg.com/zapier-platform-core/-/zapier-platform-core-8.0.1.tgz#00a2dbeac303d85be9888ef02f12d9bfd67780dc"
-  integrity sha512-vuAe7JkFQ88AeQ//NwwNEh8ZjiZr30GRWtwYo7Wo/nx1cqZwq+CRc9zJU2WRrhJfJOtOOTUF6w+pArBTtMOC5A==
+zapier-platform-core@8.2.1:
+  version "8.2.1"
+  resolved "https://registry.yarnpkg.com/zapier-platform-core/-/zapier-platform-core-8.2.1.tgz#15b3ad86c798e6b60f26d18e1e8176b5e2671d53"
+  integrity sha512-BWmjdMyPB2uUAa+pvxgv6YXs4Z72jmSk0z82ycvZAEWO7GZ4lpIJA9lssNyqUqdh8LOr1u0BFOPjs17EBhr1fA==
   dependencies:
     bluebird "3.5.0"
     content-disposition "0.5.2"
@@ -329,14 +324,14 @@ zapier-platform-core@8.0.1:
     node-fetch "1.7.1"
     oauth-sign "0.9.0"
     semver "5.6.0"
-    zapier-platform-schema "8.0.1"
+    zapier-platform-schema "8.2.1"
   optionalDependencies:
     "@types/node" "8.10.20"
 
-zapier-platform-schema@8.0.1:
-  version "8.0.1"
-  resolved "https://registry.yarnpkg.com/zapier-platform-schema/-/zapier-platform-schema-8.0.1.tgz#117b2e5ad98914dc8e877db76e1ce01302578bec"
-  integrity sha512-97KJ0xVLtpU4BiXVaMTPQpiA0T6CQIEzWfzAWwJAWbu5336+6DMFUzDWN4bANBeD3CIsRHHPcZkP8n/17U05ag==
+zapier-platform-schema@8.2.1:
+  version "8.2.1"
+  resolved "https://registry.yarnpkg.com/zapier-platform-schema/-/zapier-platform-schema-8.2.1.tgz#1dcd38552ecced57022c39ca8d48d4b0004306de"
+  integrity sha512-8UFheE2KV4BzwDr1RKvsmSxtrc0jumLxxN+7yMm6lxfFKDITPTyfMlcg4SWuAEzbdC9jrZD7IFn8oX45i95J2w==
   dependencies:
     jsonschema "1.1.1"
-    lodash "4.17.10"
+    lodash "4.17.11"
